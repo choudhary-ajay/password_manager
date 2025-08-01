@@ -15,23 +15,14 @@ A secure password manager built using *React, **Express, **Node.js, and **MongoD
 
 ## 🛠 Tech Stack
 
-- *Frontend*: React, Axios, Tailwind CSS (optional)
+- *Frontend*: React, Axios, Tailwind CSS 
 - *Backend*: Node.js, Express.js
 - *Database*: MongoDB (using Mongoose)
-- *Security*: bcrypt / crypto for encryption
 
 ---
 
 ## 📷 Screenshots
 
-> Add your own screenshots here  
 ![Dashboard Screenshot](./dashboard.png)  
 ---
 
-## 🔧 Installation
-
-### Clone the repository:
-
-```bash
-git clone https://github.com/your-username/password-manager.git
-cd password-manager

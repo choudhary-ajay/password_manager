@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -15,3 +16,7 @@ If you are developing a production application, we recommend using TypeScript an
 # password_manager
 A secure password manager built using React, Express, and MongoDB that allows users to save and manage their passwords securely."
 >>>>>>> d15156ed221e59d4e6b3bee9d171698b6abe9fe8
+=======
+# password_manager
+A secure password manager built using React, Express, and MongoDB that allows users to save and manage their passwords securely.
+>>>>>>> 903b41f029bb98c7ab5efdd2f49941e8a4bb81fd

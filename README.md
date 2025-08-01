@@ -25,7 +25,7 @@ A secure password manager built using *React, **Express, **Node.js, and **MongoD
 ## 📷 Screenshots
 
 > Add your own screenshots here  
-![Dashboard Screenshot](./screenshots/dashboard.png)  
+![Dashboard Screenshot](./dashboard.png)  
 ---
 
 ## 🔧 Installation

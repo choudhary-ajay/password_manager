@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useRef, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid';
+import {toast, ToastContainer} from "react-toastify"
 
 const Manager = () => {
     const ref = useRef()
@@ -47,6 +48,7 @@ const Manager = () => {
         setpasswordarray(passwordarray => [...passwordarray, {...form,id:uuidv4()}])
     await fetch("http://localhost:3000/",{method:"POST",headers:{"Content-type":"application/json"},body:JSON.stringify({...form,id:uuidv4()})})
     setform({ site: "", username: "", password: "" })
+    toast.success("Password saved")
 
         // localStorage.setItem("passwords", JSON.stringify([...passwordarray,{...form,id:uuidv4()}]))
 
@@ -56,6 +58,7 @@ const Manager = () => {
     }, [passwordarray])
     const copytext = (text) => {
         navigator.clipboard.writeText(text)
+        toast.success("Copied to clipboard")
     }
     const handledelete =async(id)=>{
         let a=confirm("are you sure to delete")
@@ -175,6 +178,7 @@ const Manager = () => {
                         }
                     </div>
                 </div>
+                <ToastContainer/>
             </div>
         </>
     )

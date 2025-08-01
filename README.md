@@ -6,10 +6,8 @@ A secure password manager built using *React, **Express, **Node.js, and **MongoD
 
 ## 🚀 Features
 
-- 🔐 User authentication (Sign Up, Login, Logout)
 - 🧠 Store and manage multiple passwords
 - 🔄 Edit and delete saved credentials
-- 🔒 Passwords are stored in encrypted form
 - 📱 Responsive UI with modern design
 - 💬 Toast alerts & validations
 
@@ -28,8 +26,6 @@ A secure password manager built using *React, **Express, **Node.js, and **MongoD
 
 > Add your own screenshots here  
 ![Dashboard Screenshot](./screenshots/dashboard.png)  
-![Login Page](./screenshots/login.png)
-
 ---
 
 ## 🔧 Installation
